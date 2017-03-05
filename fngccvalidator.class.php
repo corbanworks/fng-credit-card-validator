@@ -2,7 +2,7 @@
 
 /*
 FNG Credit Card Validator v1.1
-Copyright © 2009 Fake Name Generator <http://www.fakenamegenerator.com/>
+Copyright Â© 2009 Fake Name Generator <http://www.fakenamegenerator.com/>
 
 FNG Credit Card Validator v1.1 by the Fake Name Generator is licensed to you
 under a Creative Commons Attribution-Share Alike 3.0 United States License.
@@ -25,7 +25,7 @@ class fngccvalidator{
 	 */
 	public function CreditCard($ccnumber, $cardtype = '', $allowTest = false){
 		// Check for test cc number
-		if($allowTest == false && $ccnumber == '4111111111111111'){
+		if($allowTest == false && $ccnumber == '4532905607114278'){
 			return false;
 		}
 		
